@@ -1,0 +1,90 @@
+/*---expire---*/
+.elementor-element.elementor-widget-massive_countdown .mae-countdown + .mae-expire {
+    padding: 20px;
+    display: none;
+    color: #525252;
+    background-color: transparent;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown + .mae-expire.mae-cd-text-left { text-align: left; }
+.elementor-element.elementor-widget-massive_countdown .mae-countdown + .mae-expire.mae-cd-text-center { text-align: center; }
+.elementor-element.elementor-widget-massive_countdown .mae-countdown + .mae-expire.mae-cd-text-right { text-align: right; }
+
+.elementor-element.elementor-widget-massive_countdown .elementor-widget-empty-icon {
+    display: none;
+}
+
+/*---coundown counters---*/
+.mae-countdown-wrapper {
+    margin: 0 auto;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown {
+    background-color: transparent;
+    margin: 20px 0;
+    padding: 35px 20px;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-box {
+    color: #fff;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: helvetica;
+    padding: 15px;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-num {
+    font-size: 50px;
+    color: #000;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-txt {
+    display: block;
+    font-size: 15px;
+    font-family: helvetica;
+    padding: 15px 0;
+    color: #000;
+}
+
+/*--- coundown counters-1 ---*/
+.elementor-element.elementor-widget-massive_countdown .mae-countdown.mae-countdown-1 {
+    background-color: #0e83cd;
+}
+.elementor-element.elementor-widget-massive_countdown .mae-countdown.mae-countdown-1 .mae-countdown-count {	
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+}
+
+.elementor-element.elementor-widget-massive_countdown .mae-countdown.mae-countdown-1 .mae-countdown-box:last-child .mae-countdown-count:after {
+    content: none;
+}
+.elementor-element.elementor-widget-massive_countdown .mae-countdown.mae-countdown-1 .mae-countdown-num, 
+.elementor-element.elementor-widget-massive_countdown .mae-countdown.mae-countdown-1 .mae-countdown-txt {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-inner {
+        flex-wrap: wrap;
+    }
+    .elementor-element.elementor-widget-massive_countdown .mae-countdown .mae-countdown-inner .mae-countdown-box {
+        width: 100%;
+    }
+}

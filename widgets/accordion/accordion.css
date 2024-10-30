@@ -1,0 +1,160 @@
+.elementor-element.elementor-widget-massive_accordion .mae-accordion {
+    position: relative;
+    list-style: none;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-header h3 {
+    color: #333333;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-header h3 i {
+    margin-right: 10px;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-body {
+    color: #555555;
+    display: none;
+    padding: 20px 50px;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-body p { 
+    margin: 0;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-header,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-body {
+    border-style: solid;
+    border-width: 0px;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item {
+    margin-bottom: 10px;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item:last-child {
+    margin-bottom: 0;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-right .mae-accordion-header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-right .mae-accordion-header .mae-icon-wrap {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion .mae-icon-wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-left .mae-icon-wrap {
+    margin-right: 10px;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion .mae-icon-wrap-hidden {
+    display: none;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item .mae-general,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item .mae-hover {
+    color: #333333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item .mae-hover,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item.active .mae-general {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-item.active .mae-hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-fade .mae-hover,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-fade .mae-general {
+    -webkit-transition: opacity .5s ease, color 0.5s ease;
+    transition: opacity .5s ease, color 0.5s ease;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-rotate .mae-hover,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-rotate .mae-general,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-up .mae-hover,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-up .mae-general,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-left .mae-hover,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-left .mae-general {
+    -webkit-transition: opacity .5s ease, color 0.5s ease, -webkit-transform .5s ease;
+    transition: opacity .5s ease, color 0.5s ease, -webkit-transform .5s ease;
+    transition: opacity .5s ease, color 0.5s ease, transform .5s ease;
+    transition: opacity .5s ease, color 0.5s ease, transform .5s ease, -webkit-transform .5s ease;
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-rotate .mae-general {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-rotate .mae-hover,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-rotate.active .mae-general {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-rotate.active .mae-hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-up .mae-general,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-up.active .mae-hover {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-up.active .mae-general {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-up .mae-hover {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-left .mae-general,
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-left.active .mae-hover {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-left.active .mae-general {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+}
+.elementor-element.elementor-widget-massive_accordion .mae-accordion-icon-slide-left .mae-hover {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+}

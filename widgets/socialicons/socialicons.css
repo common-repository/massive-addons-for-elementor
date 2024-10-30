@@ -1,0 +1,478 @@
+.elementor-element.elementor-widget-massive_social .mae-social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-inline-left {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-inline-right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-sticky {
+    position: fixed;
+    z-index: 99999;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-sticky-left,
+.elementor-element.elementor-widget-massive_social .mae-social-icons-sticky-right {
+    top: 0;
+    bottom: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-sticky-left {
+    left: 0;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-sticky-right {
+    right: 0;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons-sticky-center {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.elementor-element.elementor-widget-massive_social .mae-icon-left,
+.elementor-element.elementor-widget-massive_social .mae-icon-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.elementor-element.elementor-widget-massive_social .mae-icon-left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.elementor-element.elementor-widget-massive_social .mae-icon-right {
+    width: 100%;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 30px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background: rgba(0,0,0,0.1);
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-fullwidth:not(.mae-icon-circle) .mae-icon {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .svg-icon {
+    width: 32px;
+    height: 32px;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .svg-icon * {
+    fill: #fff;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-default-style .mae-icon {
+    box-shadow: none;
+    border-color: transparent;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-symbol-style .mae-icon {
+    background: none;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-symbol-style .svg-icon * {
+    fill: currentColor;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-symbol-style .mae-icon .mae-icon-right {
+    color: inherit;
+    background: none;
+    padding-left: 0px;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-material-style .mae-icon,
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-flat-style .mae-icon {
+    border-color: transparent;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-material-style .mae-icon {
+    box-shadow: 0 0 4px rgba(0,0,0,0.14), 0 2px 6px rgba(0,0,0,0.28);
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-flat-style .mae-icon:after,
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-classic-style .mae-icon:after  {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-flat-style .mae-icon:after {
+    box-shadow: inset 0 -3px rgba(0,0,0,0.2);
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-classic-style .mae-icon {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-classic-style .mae-icon:after {
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.6), inset 0 1px 0 1px rgba(255,255,255,0.3);
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-bordered-style .mae-icon {
+    background: none;
+    border-style: solid;
+    border-width: 2px;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-bordered-style .svg-icon * {
+    fill: currentColor;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-social-icons-bordered-style .mae-icon .mae-icon-right {
+    border-style: solid;
+    border-width: 0px;
+    border-left-width: 2px;
+    color: inherit;
+    background: none;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-icon-rounded .mae-icon {
+    border-radius: 5px;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-icon-circle .mae-icon {
+    border-radius: 50%;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-icon-rounded.mae-social-icons-flat-style .mae-icon:after,
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-icon-rounded.mae-social-icons-classic-style .mae-icon:after  {
+    border-radius: 5px;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-icon-circle.mae-social-icons-flat-style .mae-icon:after,
+.elementor-element.elementor-widget-massive_social .mae-social-icons.mae-icon-circle.mae-social-icons-classic-style .mae-icon:after  {
+    border-radius: 5px;
+}
+.elementor-element.elementor-widget-massive_social .mae-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px;
+    box-sizing: border-box;
+    border-width: 0;
+    overflow: hidden;
+}
+.elementor-element.elementor-widget-massive_social .mae-icon:hover {
+    z-index: 1;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-facebook {
+    color: #3e68c0;
+    border-color: #3e68c0;
+    background-color: #3e68c0;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-twitter {
+    color: #23abff;
+    border-color: #23abff;
+    background-color: #23abff;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-instagram {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+    background-image: -webkit-radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), -webkit-radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), -webkit-radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), -webkit-radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), -webkit-radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), -webkit-radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), -webkit-radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    background-image: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-email {
+    color: #f4cd0b;
+    border-color: #f4cd0b;
+    background-color: #f4cd0b;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-500px {
+    color: #0099e5;
+    border-color: #0099e5;
+    background-color: #0099e5;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-behance {
+    color: #1776f6;
+    border-color: #1776f6;
+    background-color: #1776f6;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-badoo {
+    color: #ff6719;
+    border-color: #ff6719;
+    background-color: #ff6719;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-blogger {
+    color: #ff8b13;
+    border-color: #ff8b13;
+    background-color: #ff8b13;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-delicious {
+    color: #39f;
+    border-color: #39f;
+    background-color: #39f;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-deviantart {
+    color: #05cc47;
+    border-color: #05cc47;
+    background-color: #05cc47;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-digg {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-disqus {
+    color: #3ca2ef;
+    border-color: #3ca2ef;
+    background-color: #3ca2ef;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-dribbble {
+    color: #fa488c;
+    border-color: #fa488c;
+    background-color: #fa488c;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-envato {
+    color: #8dcf3a;
+    border-color: #8dcf3a;
+    background-color: #8dcf3a;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-evernote {
+    color: #2dbe60;
+    border-color: #2dbe60;
+    background-color: #2dbe60;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-fb-messenger {
+    color: #007fff;
+    border-color: #007fff;
+    background-color: #007fff;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-flickr {
+    color: #ff0084;
+    border-color: #ff0084;
+    background-color: #ff0084;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-flipboard {
+    color: #f43d3d;
+    border-color: #f43d3d;
+    background-color: #f43d3d;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-forrst {
+    color: #55c462;
+    border-color: #55c462;
+    background-color: #55c462;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-foursquare {
+    color: #ff3b6f;
+    border-color: #ff3b6f;
+    background-color: #ff3b6f;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-github {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-google-plus {
+    color: #f63329;
+    border-color: #f63329;
+    background-color: #f63329;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-lastfm {
+    color: #ea3939;
+    border-color: #ea3939;
+    background-color: #ea3939;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-line {
+    color: #00c300;
+    border-color: #00c300;
+    background-color: #00c300;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-lineat {
+    color: #00c300;
+    border-color: #00c300;
+    background-color: #00c300;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-linkedin {
+    color: #15ace5;
+    border-color: #15ace5;
+    background-color: #15ace5;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-livejournal {
+    color: #2cbae5;
+    border-color: #2cbae5;
+    background-color: #2cbae5;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-myspace {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-odnoklassniki {
+    color: #ff8321;
+    border-color: #ff8321;
+    background-color: #ff8321;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-periscope {
+    color: #35b3db;
+    border-color: #35b3db;
+    background-color: #35b3db;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-pinterest {
+    color: #ea3145;
+    border-color: #ea3145;
+    background-color: #ea3145;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-print {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-reddit {
+    color: #ff5c1f;
+    border-color: #ff5c1f;
+    background-color: #ff5c1f;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-rss {
+    color: #fb7629;
+    border-color: #fb7629;
+    background-color: #fb7629;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-weibo {
+    color: #ff3f3f;
+    border-color: #ff3f3f;
+    background-color: #ff3f3f;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-skype {
+    color: #06bcff;
+    border-color: #06bcff;
+    background-color: #06bcff;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-slack {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-snapchat {
+    color: #fada06;
+    border-color: #fada06;
+    background-color: #fada06;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-soundcloud {
+    color: #f80;
+    border-color: #f80;
+    background-color: #f80;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-spotify {
+    color: #28c858;
+    border-color: #28c858;
+    background-color: #28c858;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-stackoverflow {
+    color: #ff780d;
+    border-color: #ff780d;
+    background-color: #ff780d;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-stumbleupon {
+    color: #eb4924;
+    border-color: #eb4924;
+    background-color: #eb4924;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-telegram {
+    color: #2ca5e0;
+    border-color: #2ca5e0;
+    background-color: #2ca5e0;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-tumblr {
+    color: #35465c;
+    border-color: #35465c;
+    background-color: #35465c;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-viadeo {
+    color: #ff7452;
+    border-color: #ff7452;
+    background-color: #ff7452;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-viber {
+    color: #9d62cc;
+    border-color: #9d62cc;
+    background-color: #9d62cc;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-vimeo {
+    color: #1ab7ea;
+    border-color: #1ab7ea;
+    background-color: #1ab7ea;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-vine {
+    color: #00b488;
+    border-color: #00b488;
+    background-color: #00b488;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-vk {
+    color: #3673be;
+    border-color: #3673be;
+    background-color: #3673be;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-whatsapp {
+    color: #13d25a;
+    border-color: #13d25a;
+    background-color: #13d25a;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-xing {
+    color: #20a5a5;
+    border-color: #20a5a5;
+    background-color: #20a5a5;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-youtube {
+    color: #ee3130;
+    border-color: #ee3130;
+    background-color: #ee3130;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-codepen {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-yelp {
+    color: #D0262C;
+    border-color: #D0262C;
+    background-color: #D0262C;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-wordpress {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-wechat {
+    color: #38BE2F;
+    border-color: #38BE2F;
+    background-color: #38BE2F;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-twitch {
+    color: #63469F;
+    border-color: #63469F;
+    background-color: #63469F;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-tripadvisor {
+    color: #5A9349;
+    border-color: #5A9349;
+    background-color: #5A9349;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-steam {
+    color: #222;
+    border-color: #222;
+    background-color: #222;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-producthunt {
+    color: #D65236;
+    border-color: #D65236;
+    background-color: #D65236;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-meetup {
+    color: #EB1F44;
+    border-color: #EB1F44;
+    background-color: #EB1F44;
+}
+.elementor-element.elementor-widget-massive_social .mae-social-icons .mae-icon-medium {
+    color: #181716;
+    border-color: #181716;
+    background-color: #181716;
+}

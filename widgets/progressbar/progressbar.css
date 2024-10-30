@@ -1,0 +1,111 @@
+.elementor-element.elementor-widget-massive_progress .mae-progress__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress__complete {
+    position: absolute;
+    background: #f29760;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress-bar-horizontal .mae-progress__complete {
+    width: 0;
+    -webkit-transition: width 1s ease;
+    transition: width 1s ease;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress-bar-vertical .mae-progress__complete {
+    width: 100%;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress__bar,
+.elementor-element.elementor-widget-massive_progress .mae-progress__complete {
+    border-style: solid;
+    border-width: 0;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress__title,
+.elementor-element.elementor-widget-massive_progress .mae-progress__percent {
+    color: #333;
+    font-weight: 400 !important;
+    font-size: 20px;
+    padding-right: 1em;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress__percent {
+    padding-right: 0;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress__complete .mae-progress__info {
+    color: #fff;
+    padding: 0 10px;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+}
+.elementor-element.elementor-widget-massive_progress .design-2 .mae-progress__bar {
+    height: 40px;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress-bar-vertical .mae-progress__bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress-bar-vertical .mae-progress__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress-striped .mae-progress__complete:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
+    background-size: 35px 35px;
+}
+.elementor-element.elementor-widget-massive_progress .mae-progress-anim.mae-progress-striped .mae-progress__complete:before {
+    -webkit-animation: stripeanim 2s linear infinite;
+    animation: stripeanim 2s linear infinite;
+}
+@-webkit-keyframes stripeanim {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 35px 35px;
+    }
+}
+@keyframes stripeanim {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 35px 35px;
+    }
+}

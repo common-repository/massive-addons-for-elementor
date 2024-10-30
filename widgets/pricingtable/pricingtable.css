@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-wrapper {
+    position: relative;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border-width: 1px;
+    box-shadow: 0 0 0 6px rgba(255,255,255,0.1), 0 0 6px rgba(0,0,0,0.18);
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-stitched .mae-pricing {
+    margin: -10px;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-enlarge .mae-pricing {
+    z-index: 10;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-ribbon .mae-pricing {
+    overflow: hidden;
+}
+/* Header */
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-header > div:first-child {
+    padding-top: 40px;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-header > div:last-child {
+    padding-bottom: 40px;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-header > div {
+    padding: 10px;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-header .mae-pricing-price {
+    font-size: 5em;
+    font-family: 'Dosis', sans-serif;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-price-ascending .symbol,
+.elementor-element.elementor-widget-massive_pricing .mae-price-ascending .decimal,
+.elementor-element.elementor-widget-massive_pricing .mae-price-descending .symbol,
+.elementor-element.elementor-widget-massive_pricing .mae-price-descending .decimal {
+    font-size: 0.5em;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-price-ascending .decimal,
+.elementor-element.elementor-widget-massive_pricing .mae-price-descending .symbol {
+    vertical-align: super;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-header .mae-pricing-image {
+    margin: 0 auto;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-image img {
+    padding: 0;
+    background: none !important;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-image-overflow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 10;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-header .mae-pricing-icon {
+    line-height: 1em;
+}
+/* features */
+.elementor-element.elementor-widget-massive_pricing ul.mae-pricing-features {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.elementor-element.elementor-widget-massive_pricing ul.mae-pricing-features li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15px;
+    border-bottom: 1px dotted rgba(0,0,0,0.1);
+}
+.elementor-element.elementor-widget-massive_pricing ul.mae-pricing-features li i.fa-icon+span {
+    padding-left: 15px;
+}
+.elementor-element.elementor-widget-massive_pricing ul.mae-pricing-features-left li {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.elementor-element.elementor-widget-massive_pricing ul.mae-pricing-features-right li {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+/* tooltip */
+.elementor-element.elementor-widget-massive_pricing .mae-pricing .tooltip {
+    cursor: pointer;
+    display: inline;
+    font-size: 0.9em;
+    color: #86939e;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing .tooltip:hover {
+    color: #000;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing .tooltip:hover .tooltip-content {
+    visibility: visible;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing .tooltip .tooltip-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background: #000;
+    -webkit-transform: translateY(5px) translateX(-50%);
+            transform: translateY(5px) translateX(-50%);
+    width: 85%;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1em;
+    border-radius: 3px;
+    visibility: hidden;
+    z-index: 9999;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing .tooltip .tooltip-icon i {
+    padding: 5px;
+}
+/* Call to action */
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-cta a.mae-pricing-button {
+    color: #fff;
+    background: blue;
+    display: inline-block;
+    font-size: 14px;
+    padding: 15px 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-cta a.mae-pricing-button:hover {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+/* Decorations */
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-corner-bar {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    background: deeppink;
+    padding: 5px 5px 50px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    border-radius: 10px;
+    color: #fff;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon {
+    position: absolute;
+    color: #fff;
+    background: #e43;
+    margin: 0;
+    padding: 10px 20px;
+    top: 0;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon:after,
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    margin: 0 -1px;
+    width: 100%;
+    height: 100%;
+    background: #e43;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon:before {
+    right: 100%;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon:after {
+    left: 100%;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon-left {
+    left: 0;
+    -webkit-transform: translateX(-30%) translateY(0%) rotate(-45deg);
+            transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon-right {
+    right: 0;
+    -webkit-transform: translateX(30%) translateY(0%) rotate(45deg);
+            transform: translateX(30%) translateY(0%) rotate(45deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+}
+/* overrides */
+.elementor-element.elementor-widget-massive_pricing .mae-pricing {
+    border-color: #dee2e6;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-title,
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-icon,
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-price,
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-subtitle,
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-cta,
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-features {
+    color: #000;
+    background: transparent;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-features i.fa-icon {
+    color: #0763E2;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-title {
+    font-size: 25px;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-icon {
+    color: #0763E2;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-price {
+    font-family: 'Dosis', sans-serif;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-cta .mae-pricing-button {
+    color: #fff;
+    background: #0763E2;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-corner-bar,
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon,
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon:after,
+.elementor-element.elementor-widget-massive_pricing .mae-corner-ribbon:before {
+    color: #fff;
+    background: #e43;
+}
+.elementor-element.elementor-widget-massive_pricing .mae-pricing-desc {
+    color: #969696;
+    background: transparent;
+}

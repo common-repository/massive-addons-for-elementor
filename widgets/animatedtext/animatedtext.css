@@ -1,0 +1,77 @@
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-left { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-right { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext .mae-animetext-wrapper {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.1em 0 0.15em;
+  margin: 0 7px;
+  color: #000;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext .mae-animelines {
+  color: #000;
+  font-size: 20px;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-2 .mae-animetext-wrapper, 
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-4 .mae-animetext-wrapper,
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-6 .mae-animetext-wrapper {
+  overflow: hidden;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext .mae-animeletter {
+  color: #000;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-2 .mae-animeletter {
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-6 .mae-animeletter {
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-5 .mae-animeline {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  -webkit-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  background-color: black;
+}
+
+.elementor-element.elementor-widget-massive_animatedtext .mae-animetext.mae-animetext-7 {
+  overflow: hidden;
+}
+  
